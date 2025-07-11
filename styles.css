@@ -1,0 +1,71 @@
+/* styles.css */
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0a0a1a;
+  color: #e0e0e0;
+}
+header {
+  background: #11112e;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+header h1 {
+  font-size: 2.5rem;
+}
+.subtitle {
+  font-size: 1rem;
+  opacity: 0.75;
+  margin-bottom: 0.5rem;
+}
+nav a {
+  margin: 0 1rem;
+  color: #66fcf1;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 2rem;
+}
+section {
+  margin-bottom: 4rem;
+}
+.project-list {
+  list-style: none;
+}
+.project-list li {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #1b1b3a;
+  border-radius: 8px;
+}
+#simulationCanvas {
+  display: block;
+  margin: 1rem auto;
+  background: #000;
+  border: 2px solid #444;
+  border-radius: 8px;
+}
+.instructions {
+  text-align: center;
+  opacity: 0.8;
+  font-style: italic;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #11112e;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
