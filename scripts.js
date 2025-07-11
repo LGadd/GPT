@@ -19,7 +19,7 @@ class Vector {
 
 // Particle class representing one body in simulation
 class Particle {
-  constructor(x, y, mass = (Math.Random() + 1)) {
+  constructor(x, y, mass = (Math.Random() * 10 + 1)) {
     this.pos = new Vector(x, y);
     this.vel = new Vector(Math.random()*2-1, Math.random()*2-1);
     this.mass = mass;
