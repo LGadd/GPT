@@ -21,7 +21,7 @@ class Vector {
 class Particle {
   constructor(x, y, mass = (Math.Random() * 100 + 1)) {
     this.pos = new Vector(x, y);
-    this.vel = new Vector(-(0-x),-(0-y));
+    this.vel = new Vector(Math.Random()*2-1,Math.Random()*2-1);
     this.mass = mass;
   }
   applyForce(force) {
